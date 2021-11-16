@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Gallon {
+    public static void main(String[] args) {
+
+        Scanner  input = new Scanner(System.in);
+        System.out.println("enter miles");
+        double miles = input.nextDouble();
+        System.out.println("number of miles:"+ miles);
+        System.out.println("enter gallon");
+        double Gallon = input.nextDouble();
+        System.out.println("number of Gallon is:"+ Gallon);
+        double MPG =miles/Gallon;
+        System.out.println("the miles per gallon is"+MPG);
+
+        
+        
+    }
+    
+}
