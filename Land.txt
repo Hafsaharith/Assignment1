@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Land{
+    public static void main(String[] args) {
+        
+        Scanner  input = new Scanner(System.in);
+        System.out.print("enter totalsquare:");
+         int totalsquare = input.nextInt();
+         double num = totalsquare/43560;
+         System.out.println("number of acres" +num);
+    }
+}
