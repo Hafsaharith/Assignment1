@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+public class Tax {
+
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("enter amount of purchase:");
+        double purchase = input.nextDouble();
+        System.out.println( "amount of purchase is "+ purchase);
+        double statesalestax = purchase*0.02;
+        System.out.println("the amount of state is"+ statesalestax);
+        double countysalestax = purchase*0.04;
+        System.out.println("the amount of county is"+ countysalestax);
+       double totalsalestax =statesalestax + countysalestax;
+       System.out.println("the totalsalestax is"+totalsalestax);
+       double totalamount =purchase+totalsalestax;
+       System.out.println("totalamount is "+ totalamount);
+
+    }
+
+    
+}
