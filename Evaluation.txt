@@ -1,0 +1,11 @@
+public class Evaluation {
+    
+        public static void main(String[] args) {
+            double b = 7 + (3 * (6/2)) -1;
+            System.out.println(b);
+            double s = 2%2 + (2*2) -(2/2);
+            System.out.println(s);
+            double g = (3*9 *(3+(9*3/(3))));
+            System.out.println(g);
+        }
+    }
