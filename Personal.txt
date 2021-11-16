@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class Personalinformation{
+    public static void main(String[]args){
+        Scanner input = new Scanner(System.in);
+        System.out.print("enter your name:");
+        String name = input.nextLine();
+        System.out.println("your name is : " + name);
+
+        System.out.print("enter your address:");
+        String address = input.nextLine();
+        System.out.println("your address is : " + address);
+
+        System.out.print("enter your city:");
+        String city = input.nextLine();
+        System.out.println("your city is : " + city);
+
+        System.out.print("enter your state:");
+        String state = input.nextLine();
+        System.out.println("your state is : " + state);
+
+        System.out.print("enter your ZIP:");
+        int  ZIP = input.nextInt();
+        System.out.println("your ZIP is : " + ZIP);
+
+        System.out.print("enter your telephoneno:");
+        int telephoneno = input.nextInt();
+        System.out.println("your telephoneno is : " + telephoneno);
+
+        System.out.print("enter your collegemajor:");
+        String collegemajor = input.nextLine();
+        System.out.println("your college major is : " + collegemajor);
+        
+    }
+
+}
