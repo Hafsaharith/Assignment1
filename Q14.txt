@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Q14{
+     public static void main(String[] args) {
+
+        Scanner  input = new Scanner(System.in);
+        System.out.print("enter your firstname:");
+        String firstname = input.nextLine();
+
+        System.out.print("enter your lastname:");
+        String lastname = input.nextLine();
+        System.out.println("Welcome" +firstname+ lastname+"!");
+        
+    }
+}
